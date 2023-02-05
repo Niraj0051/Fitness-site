@@ -1,0 +1,125 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    background: url('Gym img1.jpg');
+    color: white;
+}
+
+.left {
+    display: inline-block;
+    /* border: 2px solid yellow; */
+    position: absolute;
+    left: 163px;
+    top: 0px;
+}
+
+.left img {
+    width: 130px;
+    filter: invert(100%);
+    padding: 0px 18px;
+
+}
+
+.left div {
+    text-align: center;
+    font-size: 22px;
+    margin-top: -18px;
+}
+
+.mid {
+    display: block;
+    width: 32%;
+    margin: 26px auto;
+    /* border: 2px solid green; */
+}
+
+.right {
+    display: inline-block;
+    /* border: 2px solid palegoldenrod; */
+    position: absolute;
+    right: 106px;
+    top: 26px;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 10px;
+}
+
+.navbar li a:hover {
+    color: rgb(47, 179, 155);
+    text-decoration: underline;
+}
+
+.right img {
+    width: 33px;
+    margin-left: -3px;
+    margin-right: 6px;
+}
+
+.right a img:hover {
+    background-color: whitesmoke;
+}
+
+.right div {
+    float: left;
+    margin-top: 8px;
+    margin-right: 12px;
+}
+
+.container{
+    border: 2px solid #5364ff;
+    width: 33%;
+    margin: 60px 50px;
+    padding: 0px 30px;
+    border-radius: 40px;
+}
+.form-grp input{
+    text-align: center;
+    border: 2px solid red;
+    display: block;
+    width: 350px;
+    padding: 7px;
+    margin: 10px auto;
+    font-size: medium;
+}
+.form-grp button{
+    display: block;
+    width: 23%;
+    margin: 15px auto;
+}
+.btn{
+    width: 76px;
+    height: 30px;
+    background-color: #2525e0;
+    color: white;
+    border-radius: 9px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: royalblue;
+}
+.container h3{
+    text-align: center;
+}
+.ty{
+    position: absolute;
+    top: 683px;
+    /* border: 2px solid #362525; */
+    width: 1500px;
+    padding: 2px 15px;
+    margin: 0px -78px;
+    color: #ffdd25;
+    background-color: #362525;
+}
